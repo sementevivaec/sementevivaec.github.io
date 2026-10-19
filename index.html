@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Aulas bíblicas prontas para imprimir (4 a 8 anos) | Salinha Descomplicada</title>
-<meta name="description" content="12 aulas bíblicas ilustradas, do Gênesis à ressurreição de Jesus, com livreto para as crianças e plano de 45 minutos para o professor. Baixe a aula de amostra grátis.">
+<title>Aula bíblica pronta para imprimir (4 a 8 anos): amostra grátis | Salinha Descomplicada</title>
+<meta name="description" content="Aula bíblica pronta para imprimir (4 a 8 anos): livreto ilustrado para as crianças e plano de 45 minutos para o professor. Baixe uma aula completa grátis.">
 <link rel="canonical" href="https://sementevivaec.github.io/">
 <meta name="theme-color" content="#3f6b3b">
 <link rel="icon" href="favicon.png" type="image/png">
@@ -94,12 +94,29 @@ table.roteiro th{width:110px;text-align:left;vertical-align:top;color:var(--verd
 table.roteiro td{padding:10px 8px;border-bottom:1px solid var(--linha)}
 .perguntas{margin-left:1.3em}.perguntas li{margin-bottom:.5em}.resp{color:var(--cinza);font-size:.92rem}
 .marca{display:flex;align-items:center;gap:10px}.marca img{width:44px;height:44px;border-radius:50%}
+.fatos{padding:0;background:var(--verde-esc)}
+.fatos ul{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);gap:8px;padding:22px 0}
+.fatos li{text-align:center;color:#fff}
+.fatos b{display:block;font-family:'Fredoka',sans-serif;font-size:2.1rem;line-height:1.05;font-weight:600}
+.fatos span{display:block;font-size:.9rem;color:#dfeadb}
+.cta-meio{margin-top:26px;background:#fff;border:2px dashed var(--verde);border-radius:16px;padding:20px 22px;display:flex;gap:18px;align-items:center;justify-content:space-between}
+.cta-meio p{margin:0}
+.acoes{display:flex;flex-direction:column;gap:12px;align-items:stretch;text-align:center}
+.whats{display:inline-block;color:var(--verde-esc);font-weight:800;font-size:.95rem;text-decoration:underline}
+.sticky{display:none}
 .final{text-align:center}
 .final .btn{margin-top:6px}
 footer{background:#1f2a1f;color:#d7e2d3;padding:36px 0;font-size:.88rem}
 footer a{color:#d7e2d3}
 footer p{margin-bottom:.7em}
 @media(max-width:820px){
+ .sticky{display:block;position:fixed;left:0;right:0;bottom:0;z-index:20;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:rgba(251,248,241,.96);border-top:1px solid var(--linha);text-align:center;transition:transform .25s}
+ .sticky .btn{display:block;padding:14px 18px}
+ .sticky.oculto{transform:translateY(110%)}
+ body{padding-bottom:78px}
+ .fatos ul{grid-template-columns:repeat(2,1fr);gap:16px 8px}
+ .cta-meio{flex-direction:column;text-align:center}
+
  table.roteiro th{width:84px}
  .plano{padding:18px}
  body{font-size:17px}
@@ -127,10 +144,10 @@ footer p{margin-bottom:.7em}
   <div class="wrap grade">
     <div>
       <p class="kicker">Para quem ensina crianças de 4 a 8 anos</p>
-      <h1>Chegue à aula bíblica de domingo com tudo pronto, sem passar a semana montando material</h1>
-      <p class="sub">Salinha Descomplicada: 12 aulas do Gênesis à ressurreição de Jesus. Você imprime o livreto ilustrado das crianças, lê o plano de 45 minutos e dá a aula.</p>
+      <h1>Aula bíblica pronta para imprimir: chegue ao domingo sem correria</h1>
+      <p class="sub">Salinha Descomplicada: 12 aulas do Gênesis à ressurreição de Jesus, para crianças de 4 a 8 anos. Você imprime o livreto ilustrado, lê o plano de 45 minutos e dá a aula, sem passar a semana montando material.</p>
       <a class="btn" href="amostra-gratis-jesus-nasceu.pdf" download>Baixar a aula de amostra grátis</a>
-      <p class="micro">PDF completo, sem cadastro. Imprima em casa, na sua impressora comum.</p>
+      <p class="micro"><b>100% grátis</b> · PDF completo · sem cadastro · imprima em casa, na impressora comum.</p>
       <ul class="selos">
         <li>Texto bíblico na ACF</li>
         <li>Servem a igrejas de várias tradições</li>
@@ -142,6 +159,15 @@ footer p{margin-bottom:.7em}
       <img src="capa-natal.webp" width="644" height="909" alt="Capa do livreto da amostra grátis, Jesus nasceu, com o presépio para colorir">
     </div>
   </div>
+</section>
+
+<section class="fatos" aria-label="Resumo do material">
+  <div class="wrap"><ul>
+    <li><b>12</b><span>aulas, do Gênesis à ressurreição</span></li>
+    <li><b>8</b><span>páginas no livreto de cada aula</span></li>
+    <li><b>45</b><span>minutos de roteiro pronto</span></li>
+    <li><b>2</b><span>trilhas: 4 a 5 e 6 a 8 anos</span></li>
+  </ul></div>
 </section>
 
 <section class="alt">
@@ -174,6 +200,7 @@ footer p{margin-bottom:.7em}
       <div class="cartao"><span class="n">Para a família</span><h3>Cartão e conversa em casa</h3><p>Cada criança leva um cartão para pintar e três perguntas para conversar com a família, levando a aula para além da igreja.</p></div>
       <div class="cartao"><span class="n">Para imprimir</span><h3>Pronto para sua impressora</h3><p>A4, frente e verso, 2 folhas dobradas. Sem gráfica, sem programa especial e com desenhos que gastam pouca tinta.</p></div>
     </div>
+    <div class="cta-meio"><p><b>Quer ver tudo isso na prática?</b> Baixe uma aula completa e teste com a sua turma.</p><a class="btn" href="amostra-gratis-jesus-nasceu.pdf" download>Baixar a amostra grátis</a></div>
   </div>
 </section>
 
@@ -212,7 +239,7 @@ footer p{margin-bottom:.7em}
         <ul>
           <li>Histórias bíblicas contadas em linguagem de criança.</li>
           <li>Versículos de memorização na Almeida Corrigida Fiel (ACF).</li>
-          <li>Revisão teológica feita antes do lançamento.</li>
+          <li>Conteúdo com revisão teológica.</li>
         </ul></div>
       <div class="caixa"><h3>Respeitoso com as igrejas</h3>
         <ul>
@@ -256,9 +283,9 @@ footer p{margin-bottom:.7em}
         <p class="kicker">Teste antes de qualquer decisão</p>
         <h2>Baixe uma aula completa, grátis</h2>
         <p>A aula “Jesus nasceu!” vem inteira: plano do professor, livreto das crianças pronto para imprimir e instruções passo a passo. Você vê a qualidade e a facilidade de verdade, com a sua turma.</p>
-        <p class="micro">PDF de 8 páginas, sem cadastro.</p>
+        <p class="micro">PDF de 8 páginas, sem cadastro. Pode compartilhar com outros pais e professores.</p>
       </div>
-      <div><a class="btn" href="amostra-gratis-jesus-nasceu.pdf" download>Baixar a amostra grátis</a></div>
+      <div class="acoes"><a class="btn" href="amostra-gratis-jesus-nasceu.pdf" download>Baixar a amostra grátis</a><a class="whats" href="https://wa.me/?text=Conheci%20este%20material%20de%20aulas%20b%C3%ADblicas%20para%20crian%C3%A7as%20de%204%20a%208%20anos%2C%20com%20uma%20aula%20completa%20de%20amostra%20gr%C3%A1tis%20para%20baixar%20e%20imprimir%3A%20https%3A//sementevivaec.github.io/" target="_blank" rel="noopener">Indicar para um professor ou pai pelo WhatsApp</a></div>
     </div>
   </div>
 </section>
@@ -290,8 +317,10 @@ footer p{margin-bottom:.7em}
     <details><summary>Funciona com crianças de idades diferentes na mesma sala?</summary><p>Sim. Cada aula tem atividades para 4 a 5 anos e para 6 a 8 anos, no mesmo livreto. Cada criança faz a trilha da sua idade.</p></details>
     <details><summary>Serve para a minha igreja?</summary><p>As aulas contam histórias bíblicas conhecidas por igrejas cristãs de diferentes tradições. Jesus aparece sem rosto e a cruz é sempre vazia, para evitar pontos de discordância entre denominações.</p></details>
     <details><summary>Posso imprimir quantas cópias eu quiser?</summary><p>Para as turmas que você ensina e para os seus filhos, sim. Pedimos que não compartilhe os arquivos com outros professores ou pais: se conhece quem gostaria de usar, indique o material. Cristão não promove a pirataria.</p></details>
+    <details><summary>A amostra é grátis mesmo? Tem pegadinha?</summary><p>É grátis mesmo, sem cadastro e sem cobrança. É uma aula completa (plano do professor e livreto das crianças) para você conhecer o material antes de qualquer decisão.</p></details>
+    <details><summary>Posso compartilhar a amostra com outras pessoas?</summary><p>Pode, e agradecemos! Compartilhe o PDF da amostra inteiro, sem alterar e sem cobrar, ou indique este site para outros pais e professores.</p></details>
     <details><summary>Quando a coleção completa fica disponível?</summary><p>Em breve. Enquanto isso, baixe a aula de amostra e volte a esta página para acompanhar as novidades.</p></details>
-    <details><summary>E se eu comprar e não gostar?</summary><p>A coleção completa terá garantia incondicional de 7 dias.</p></details>
+    <details><summary>E se eu quiser a coleção completa e não gostar?</summary><p>A coleção completa terá garantia incondicional de 7 dias. E, antes de decidir, você já pode testar uma aula inteira de graça.</p></details>
   </div>
 </section>
 
@@ -310,6 +339,7 @@ footer p{margin-bottom:.7em}
     <p>Veja como é ter a aula pronta no domingo de manhã.</p>
     <a class="btn" href="amostra-gratis-jesus-nasceu.pdf" download>Baixar a aula de amostra grátis</a>
     <p class="micro">Sem cadastro. A coleção completa chega em breve.</p>
+    <p style="margin-top:14px"><a class="whats" href="https://wa.me/?text=Conheci%20este%20material%20de%20aulas%20b%C3%ADblicas%20para%20crian%C3%A7as%20de%204%20a%208%20anos%2C%20com%20uma%20aula%20completa%20de%20amostra%20gr%C3%A1tis%20para%20baixar%20e%20imprimir%3A%20https%3A//sementevivaec.github.io/" target="_blank" rel="noopener">Indicar para um professor ou pai pelo WhatsApp</a></p>
   </div>
 </section>
 
@@ -324,6 +354,11 @@ footer p{margin-bottom:.7em}
     <p>Este site não usa cookies nem ferramentas de rastreamento.</p>
   </div>
 </footer>
+
+<div class="sticky" id="sticky"><a class="btn" href="amostra-gratis-jesus-nasceu.pdf" download>Baixar a amostra grátis</a></div>
+<script>
+(function(){var s=document.getElementById("sticky");if(!s||!("IntersectionObserver" in window))return;var alvos=document.querySelectorAll("#amostra,.final,.hero");var vis=new Set();var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)vis.add(e.target);else vis.delete(e.target);});s.classList.toggle("oculto",vis.size>0);},{threshold:.25});alvos.forEach(function(a){io.observe(a)});})();
+</script>
 
 </body>
 </html>
